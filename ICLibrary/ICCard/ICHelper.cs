@@ -33,7 +33,7 @@ namespace ICLibrary.ICCard
             LoadDriver();
             isOpen = OpenDev();
             Console.WriteLine("Status: " + isOpen + "\r\n");
-            Console.WriteLine("CardReader Service Listen Port: 33448\r\n\r\nUri: http://localhost:33448/tryread");
+            Console.WriteLine("CardReader Service Listen Port: 33448\r\n\r\nUri: http://localhost:33448/tryread\r\nTest Uri: http://localhost:33448/");
             CeenHttpd.CeenHttpServer();
         }
 

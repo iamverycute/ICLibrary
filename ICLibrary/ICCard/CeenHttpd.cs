@@ -1,4 +1,5 @@
 ﻿using Ceen.Httpd;
+using Ceen.Httpd.Handler;
 using System.Net;
 
 namespace ICLibrary.ICCard
@@ -14,9 +15,11 @@ namespace ICLibrary.ICCard
                 .AddRoute("/tryread", new HttpHandlerDelegate(async (ctx) =>
                 {
                     ctx.Response.SetNonCacheable();
+                    ctx.Response.AddHeader("Access-Control-Allow-Origin", "*");
                     await ctx.Response.WriteAllAsync(Helper.GetResponseText());
                     return true;
                 }))
+                .AddRoute(new FileHandler(".\\www"))
             ).GetAwaiter().GetResult();
         }
     }

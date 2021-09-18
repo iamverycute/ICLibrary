@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RL8000 Reader Test Page.</title>
+  </head>
+  <body>
+    <h1>Card Reader Test:</h1>
+    <p id="result"></p>
+    <script src="jquery.min.js"></script>
+    <script>
+      var res;
+
+      function tryread() {
+        $.get("/tryread", function (data) {
+          res.text(JSON.stringify(data));
+        });
+      }
+      $(function () {
+        res = $("#result");
+        setInterval(function () {
+          tryread();
+        }, 800);
+      });
+    </script>
+  </body>
+</html>

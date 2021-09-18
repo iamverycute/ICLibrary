@@ -78,6 +78,7 @@
     <PostBuildEvent>DEL $(TargetDir)*.pdb
 DEL $(TargetDir)*.xml
 DEL $(TargetDir)*.dll
-RD /S /Q $(TargetDir)Drivers</PostBuildEvent>
+RD /S /Q $(TargetDir)Drivers
+RD /S /Q $(TargetDir)www</PostBuildEvent>
   </PropertyGroup>
 </Project>
