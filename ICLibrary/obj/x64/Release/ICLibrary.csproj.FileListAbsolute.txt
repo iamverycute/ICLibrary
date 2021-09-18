@@ -1,4 +1,0 @@
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x64\Release\ICLibrary.csproj.SuggestedBindingRedirects.cache
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x64\Release\ICLibrary.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x64\Release\ICLibrary.exe
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\ICLibrary.exe

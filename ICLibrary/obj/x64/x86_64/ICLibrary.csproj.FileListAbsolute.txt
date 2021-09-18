@@ -1,9 +1,0 @@
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\x64\ICLibrary.exe
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\x64\DotNetZip.dll
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\x64\DotNetZip.pdb
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\x64\DotNetZip.xml
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x64\x86_64\ICLibrary.csproj.SuggestedBindingRedirects.cache
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x64\x86_64\ICLibrary.Resource1.resources
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x64\x86_64\ICLibrary.csproj.GenerateResource.cache
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x64\x86_64\ICLibrary.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x64\x86_64\ICLibrary.exe
