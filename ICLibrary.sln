@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31710.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICLibrary", "ICLibrary\ICLibrary.csproj", "{5FB20DCF-1956-4499-8125-8F1EA0B1477A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|i386 = Release|i386
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FB20DCF-1956-4499-8125-8F1EA0B1477A}.Release|i386.ActiveCfg = Release|x86
+		{5FB20DCF-1956-4499-8125-8F1EA0B1477A}.Release|i386.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B00E203-A0C0-4D87-9C54-E3D018684086}
+	EndGlobalSection
+EndGlobal
