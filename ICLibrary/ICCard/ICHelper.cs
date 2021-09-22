@@ -37,8 +37,14 @@ namespace ICLibrary.ICCard
             LoadDriver();
             isOpen = OpenDev();
             Console.WriteLine("Status: " + isOpen + "\r\n");
-            Console.WriteLine("CardReader Service Listen Port: 33448\r\n\r\nUri: http://localhost:33448/tryread\r\nTest Uri: http://localhost:33448/");
+            Console.WriteLine("CardReader Service Listen Port: 33448\r\n\r\nDoc: https://github.com/iamverycute/ICLibrary");
             CeenHttpd.CeenHttpServer();
+        }
+
+        internal static byte[] iBeep()
+        {
+            Beep();
+            return Encoding.UTF8.GetBytes("");
         }
 
         /// <summary>
@@ -55,7 +61,7 @@ namespace ICLibrary.ICCard
             }
             if (!string.IsNullOrEmpty(cardNumber) && cardNumber.Length > 8)
             {
-                Beep();
+                // Beep();
                 responseString = "{\"code\":200,\"uid\":\"" + cardNumber.Substring(0, 8) + "\"}";
             }
             return Encoding.UTF8.GetBytes(responseString);

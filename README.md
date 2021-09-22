@@ -11,6 +11,8 @@ RL8000 ICLibrary
 
 调用读卡API：http://localhost:33448/tryread
 
+调用提示音API：http://localhost:33448/beep
+
 # Dependencies
 
 + Ceen.Httpd.0.9.9

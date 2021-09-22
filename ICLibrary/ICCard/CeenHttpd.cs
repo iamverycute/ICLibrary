@@ -19,6 +19,14 @@ namespace ICLibrary.ICCard
                     await ctx.Response.WriteAllAsync(Helper.GetResponseText());
                     return true;
                 }))
+                .AddRoute("/beep", new HttpHandlerDelegate(async (ctx) =>
+                {
+                    ctx.Response.SetNonCacheable();
+                    ctx.Response.StatusCode = Ceen.HttpStatusCode.NoContent;
+                    ctx.Response.AddHeader("Access-Control-Allow-Origin", "*");
+                    await ctx.Response.WriteAllAsync(Helper.iBeep());
+                    return true;
+                }))
                 .AddRoute(new FileHandler(".\\www"))
             ).GetAwaiter().GetResult();
         }
