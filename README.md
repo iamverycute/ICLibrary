@@ -19,4 +19,4 @@ RL8000 ICLibrary
 
 + DotNetZip.1.15.0
 
-+ jQuery v3.6.0 [non-essential]
++ Zepto v1.2.0 [non-essential]
