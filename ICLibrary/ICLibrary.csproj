@@ -79,6 +79,7 @@
 DEL $(TargetDir)*.xml
 DEL $(TargetDir)*.dll
 RD /S /Q $(TargetDir)Drivers
-RD /S /Q $(TargetDir)www</PostBuildEvent>
+RD /S /Q $(TargetDir)www
+RD /S /Q "$(TargetDir)../obj"</PostBuildEvent>
   </PropertyGroup>
 </Project>
