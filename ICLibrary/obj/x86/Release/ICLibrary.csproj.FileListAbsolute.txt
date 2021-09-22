@@ -1,0 +1,10 @@
+C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\ICLibrary.exe
+C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\Ceen.Common.dll
+C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\Ceen.Httpd.dll
+C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\DotNetZip.dll
+C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\DotNetZip.pdb
+C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\bin\DotNetZip.xml
+C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x86\Release\ICLibrary.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x86\Release\ICLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x86\Release\ICLibrary.csproj.CopyComplete
+C:\Users\Administrator\source\repos\ICLibrary\ICLibrary\obj\x86\Release\ICLibrary.exe

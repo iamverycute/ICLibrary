@@ -54,7 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICCard\CeenHttpd.cs" />
-    <Compile Include="ICCard\ExtractDll.cs" />
+    <Compile Include="ICCard\Extract.cs" />
     <Compile Include="ICCard\ICHelper.cs" />
     <Compile Include="ICCard\rfidlib.cs" />
     <Compile Include="ICCard\rfidlib_aip_iso14443A.cs" />

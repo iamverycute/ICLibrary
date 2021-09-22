@@ -15,6 +15,10 @@ namespace ICLibrary.ICCard
         private static string sUid;//UID
         private static bool isOpen;
 
+        /// <summary>
+        /// 释放读卡器必要资源
+        /// </summary>
+        /// <param name="st"></param>
         public static void ExtractAllResources(Stream st)
         {
             //释放Http, IC卡相关dll、driver
