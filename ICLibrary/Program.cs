@@ -6,7 +6,7 @@ namespace ICLibrary
     {
         public static void Main()
         {
-            Extract.Depends().Listen();
+            ICHelper.Depends().ListenA();
         }
     }
 }

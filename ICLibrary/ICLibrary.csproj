@@ -17,7 +17,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <PlatformTarget>x86</PlatformTarget>
     <LangVersion>7.3</LangVersion>
     <ErrorReport>prompt</ErrorReport>
@@ -53,9 +53,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ICCard\CeenHttpd.cs" />
-    <Compile Include="ICCard\Extract.cs" />
     <Compile Include="ICCard\ICHelper.cs" />
+    <Compile Include="ICCard\rfidlib_helper.cs" />
     <Compile Include="ICCard\rfidlib.cs" />
     <Compile Include="ICCard\rfidlib_aip_iso14443A.cs" />
     <Compile Include="ICCard\rfidlib_aip_iso15693.cs" />
